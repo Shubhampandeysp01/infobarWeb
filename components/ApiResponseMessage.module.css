@@ -1,0 +1,58 @@
+/* ApiResponseMessage.module.css */
+
+.api-response-message {
+    /* Add any additional styles here */
+  }
+  
+  /* Styling for the success icon */
+  .api-response-message svg.feather {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  
+  /* Styling for the error icon */
+  .api-response-message svg.feather.feather-x-circle {
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* Center the ApiResponseMessage content */
+  .api-response-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Add some space at the bottom of ApiResponseMessage */
+  .api-response-message {
+    margin-bottom: 16px;
+  }
+  
+  /* Styling for success message */
+  .api-response-message.success {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for error message */
+  .api-response-message.error {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* ApiResponseMessage.module.css */
+
+/* Styling for the success icon */
+.api-response-message .success-icon {
+  fill: #4CAF50; /* Green color for success */
+}
+
+/* Styling for the error icon */
+.api-response-message .error-icon {
+  fill: #F44336; /* Red color for error */
+}
